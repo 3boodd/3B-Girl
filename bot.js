@@ -9,7 +9,7 @@ ReBeL.guild.member(ReBeL).addRole(ReBeL.guild.roles.find("name", "بنت")).then
 console.log("Done");
 });
   client.on('voiceStateUpdate', (codes, ReBeL) => {
-if(ReBeL.voiceChannelID !== "469575636432846870") return console.log("أيرور . ");
+if(ReBeL.voiceChannelID !== "469575710558650388") return console.log("أيرور . ");
 ReBeL.guild.createChannel(ReBeL.user.username , 'voice').then((rebeeel) =>{
 ReBeL.guild.members.get(ReBeL.id).setVoiceChannel(rebeeel.id).then((codess) =>{
   console.log("تــــــم .");
